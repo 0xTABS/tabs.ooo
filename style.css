@@ -71,14 +71,6 @@ nav {
   color: var(--black-40);
 }
 
-.coming-soon:hover span {
-  display: none;
-}
-
-.coming-soon:hover:before {
-  content: 'Coming soon';
-}
-
 .coming-soon:hover {
   color: var(--black-40);
 }

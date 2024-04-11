@@ -89,8 +89,10 @@ section {
   color: var(--black-40);
 }
 
-.text-40:hover {
-  color: var(--white-90);
+@media only screen and (min-width: 800px) {
+  .text-40:hover {
+    color: var(--white-90);
+  }
 }
 
 footer {

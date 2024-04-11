@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,ol {
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+input,button,textarea,select {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+@font-face {
+  font-family: Roboto Mono;
+  src: url(fonts/RobotoMono-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Roboto Mono;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px
+}
+
+.div {
+  display: flex;
+  gap: 4px;
+}

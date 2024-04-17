@@ -75,6 +75,19 @@ nav {
   color: var(--black-40);
 }
 
+.link:hover {
+  color: var(--black-40);
+}
+
+.link-inverted {
+  color: var(--black-40);
+}
+
+.link-inverted:hover {
+  color: white;
+}
+
+
 section {
   display: flex;
   flex-direction: column;
